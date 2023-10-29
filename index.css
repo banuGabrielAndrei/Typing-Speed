@@ -6,6 +6,7 @@
 }
 
 #result {
+  text-align: left;
   display: none;
   font-style: oblique;
   color: blue;
