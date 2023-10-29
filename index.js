@@ -50,6 +50,7 @@ function checkCharacters() {
     inputText = document.getElementById("inputText").value;
     inputWords = inputText.split(" ");
     for (let i = 0; i < gameTextSpans.length; i++) {
+        gameTextSpans[i].style.color = "blue";
         if (i < inputWords.length) {
             if (inputWords[i] == gameTextSpans[i].textContent) {
                 gameTextSpans[i].style.color = "green";
